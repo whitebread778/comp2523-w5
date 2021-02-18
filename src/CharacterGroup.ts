@@ -13,7 +13,7 @@ export class CharacterGroup implements ISortable {
 
   compare(leftPos: number, rightPos: number): boolean {
     let leftString = this.data.charAt(leftPos).toLowerCase();
-    let rightString = this.data.charAt(rightPos).toLocaleLowerCase();
+    let rightString = this.data.charAt(rightPos).toLowerCase();
     if (leftString.charCodeAt(0) > rightString.charCodeAt(0))
       return true;
     else
