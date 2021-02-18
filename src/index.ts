@@ -9,11 +9,11 @@ sorter1.sort();
 console.log(numberGroup.data);
 console.log("-------------------------");
 
-// const characterGroup = new CharacterGroup("Xaeyb");
-// const sorter2 = new SortUtil(characterGroup);
-// sorter2.sort();
-// console.log(characterGroup.data);
-// console.log("-------------------------");
+const characterGroup = new CharacterGroup("Xaeyb");
+const sorter2 = new SortUtil(characterGroup);
+sorter2.sort();
+console.log(characterGroup.data);
+console.log("-------------------------");
 
 // const linkedListGroup = new LinkedListGroup();
 // linkedListGroup.add(520);
